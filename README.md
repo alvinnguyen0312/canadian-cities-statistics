@@ -13,4 +13,4 @@ Database](https://simplemaps.com/data/world-cities)
 - Manipulate data by queries (population, distance between cities, etc) 
 - Windown Form App using C#
 ## Demo
-!(https://github.com/alvinnguyen0312/canadian-cities-statistics/blob/master/StatisticApp.PNG)
+![](https://github.com/alvinnguyen0312/canadian-cities-statistics/blob/master/StatisticApp.PNG)
