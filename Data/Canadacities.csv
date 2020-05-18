@@ -1,0 +1,251 @@
+﻿city,city_ascii,lat,lng,country,admin_name,capital,population,id
+Selkirk,Selkirk,50.15,-96.8833,Canada,Manitoba,,9986,1124499880
+Trepassey,Trepassey,46.737,-53.3633,Canada,Newfoundland and Labrador,,398,1124344083
+Schefferville,Schefferville,54.8,-66.8167,Canada,Québec,,471,1124403382
+Whitehorse,Whitehorse,60.7167,-135.05,Canada,Yukon,admin,23276,1124348186
+Trout River,Trout River,49.4837,-58.1166,Canada,Newfoundland and Labrador,,452,1124733447
+Yorkton,Yorkton,51.2171,-102.4665,Canada,Saskatchewan,,15172,1124108820
+Antigonish,Antigonish,45.6269,-61.9982,Canada,Nova Scotia,,6739,1124839247
+Gander,Gander,48.95,-54.55,Canada,Newfoundland and Labrador,,3345,1124310517
+Berens River,Berens River,52.3666,-97.0333,Canada,Manitoba,,892,1124806860
+Port-Menier,Port-Menier,49.8226,-64.348,Canada,Québec,,263,1124109240
+Wetaskiwin,Wetaskiwin,52.9666,-113.3833,Canada,Alberta,,11823,1124492484
+Shamattawa,Shamattawa,55.8504,-92.0833,Canada,Manitoba,,870,1124131561
+Steinbach,Steinbach,49.5171,-96.6833,Canada,Manitoba,,9729,1124152692
+Thunder Bay,Thunder Bay,48.4462,-89.275,Canada,Ontario,,99334,1124398712
+Oshawa,Oshawa,43.88,-78.85,Canada,Ontario,,450963,1124541904
+Chicoutimi,Chicoutimi,48.4333,-71.0667,Canada,Québec,,53940,1124426272
+Melville,Melville,50.9333,-102.8,Canada,Saskatchewan,,4279,1124823140
+Brooks,Brooks,50.5671,-111.9,Canada,Alberta,,14163,1124093123
+Dauphin,Dauphin,51.15,-100.05,Canada,Manitoba,,9077,1124144510
+Smithers,Smithers,54.7666,-127.1666,Canada,British Columbia,,6245,1124191574
+Terrace,Terrace,54.5,-128.5833,Canada,British Columbia,,19443,1124878479
+Lutselke,Lutselke,62.4001,-110.7333,Canada,Northwest Territories,,102,1124525451
+Resolute,Resolute,74.6833,-94.9,Canada,Nunavut,,250,1124211405
+Quesnel,Quesnel,52.9837,-122.4833,Canada,British Columbia,,13788,1124028015
+Island Lake,Island Lake,53.9666,-94.7666,Canada,Manitoba,,10,1124887306
+Halifax,Halifax,44.65,-63.6,Canada,Nova Scotia,admin,359111,1124130981
+Watson Lake,Watson Lake,60.1166,-128.8,Canada,Yukon,,802,1124162676
+Sydney,Sydney,46.0661,-60.18,Canada,Nova Scotia,,37538,1124205375
+Dawson Creek,Dawson Creek,55.767,-120.2333,Canada,British Columbia,,10802,1124081402
+Uranium City,Uranium City,59.5666,-108.6166,Canada,Saskatchewan,,89,1124993293
+Timmins,Timmins,48.4666,-81.3333,Canada,Ontario,,34974,1124760634
+Saskatoon,Saskatoon,52.17,-106.67,Canada,Saskatchewan,,198958,1124612546
+Iqaluit,Iqaluit,63.7505,-68.5002,Canada,Nunavut,admin,6124,1124379539
+Alert,Alert,82.4833,-62.25,Canada,Nunavut,,125,1124921853
+Thessalon,Thessalon,46.25,-83.55,Canada,Ontario,,1464,1124087342
+Yellowknife,Yellowknife,62.442,-114.397,Canada,Northwest Territories,admin,19234,1124208917
+Camrose,Camrose,53.0167,-112.8166,Canada,Alberta,,15808,1124351657
+Campbell River,Campbell River,50.0171,-125.25,Canada,British Columbia,,33430,1124851971
+Revelstoke,Revelstoke,51.0005,-118.1833,Canada,British Columbia,,7668,1124070926
+Meadow Lake,Meadow Lake,54.1301,-108.4347,Canada,Saskatchewan,,5882,1124434578
+Atikokan,Atikokan,48.7504,-91.6166,Canada,Ontario,,3625,1124868159
+Creston,Creston,49.1,-116.5167,Canada,British Columbia,,4816,1124204302
+Gillam,Gillam,56.35,-94.7,Canada,Manitoba,,1281,1124560722
+Cranbrook,Cranbrook,49.5167,-115.7667,Canada,British Columbia,,18610,1124937794
+Little Current,Little Current,45.967,-81.9333,Canada,Ontario,,1595,1124386809
+Calgary,Calgary,51.083,-114.08,Canada,Alberta,,1110000,1124690423
+Big Beaver House,Big Beaver House,52.95,-89.8833,Canada,Ontario,,10,1124557709
+Parry Sound,Parry Sound,45.3337,-80.033,Canada,Ontario,,7105,1124245809
+Kamloops,Kamloops,50.6667,-120.3333,Canada,British Columbia,,68714,1124735582
+Dolbeau,Dolbeau,48.8666,-72.2333,Canada,Québec,,13337,1124037070
+St. John's,St. John's,47.585,-52.681,Canada,Newfoundland and Labrador,admin,131469,1124741456
+Lansdowne House,Lansdowne House,52.2166,-87.8833,Canada,Ontario,,120,1124130748
+Paulatuk,Paulatuk,69.3833,-123.9833,Canada,Northwest Territories,,294,1124599203
+Attawapiskat,Attawapiskat,52.9166,-82.4333,Canada,Ontario,,1802,1124363788
+Rimouski,Rimouski,48.4337,-68.5167,Canada,Québec,,35584,1124433645
+Grand Prairie,Grand Prairie,55.1666,-118.8,Canada,Alberta,,41462,1124505481
+La Sarre,La Sarre,48.8,-79.2,Canada,Québec,,7206,1124902252
+Mingan,Mingan,50.3018,-64.0173,Canada,Québec,,588,1124305694
+Prince Albert,Prince Albert,53.2,-105.75,Canada,Saskatchewan,,34609,1124158154
+Moose Jaw,Moose Jaw,50.4,-105.55,Canada,Saskatchewan,,32166,1124806868
+Powell River,Powell River,49.8837,-124.55,Canada,British Columbia,,12779,1124154376
+Pangnirtung,Pangnirtung,66.1333,-65.75,Canada,Nunavut,,1320,1124731886
+Nelson,Nelson,49.4837,-117.2833,Canada,British Columbia,,11779,1124361295
+Peace River,Peace River,56.2333,-117.2833,Canada,Alberta,,5340,1124941936
+Cobalt,Cobalt,47.3837,-79.6833,Canada,Ontario,,1372,1124248298
+New Glasgow,New Glasgow,45.5833,-62.6333,Canada,Nova Scotia,,20322,1124760188
+Arctic Bay,Arctic Bay,73.0333,-85.1666,Canada,Nunavut,,604,1124556203
+Burwash Landing,Burwash Landing,61.3504,-139,Canada,Yukon,,73,1124021816
+Saint-Georges,Saint-Georges,46.1171,-70.6667,Canada,Québec,,26149,1124154865
+Vancouver,Vancouver,49.2734,-123.1216,Canada,British Columbia,,2313328,1124825478
+Medicine Hat,Medicine Hat,50.0333,-110.6833,Canada,Alberta,,63138,1124303972
+Port Hope Simpson,Port Hope Simpson,52.5333,-56.3,Canada,Newfoundland and Labrador,,197,1124159024
+Deer Lake,Deer Lake,49.1744,-57.4269,Canada,Newfoundland and Labrador,,4163,1124841556
+Vegreville,Vegreville,53.5,-112.05,Canada,Alberta,,5813,1124534321
+Bella Bella,Bella Bella,52.1484,-128.1173,Canada,British Columbia,,1400,1124480592
+Rankin Inlet,Rankin Inlet,62.8167,-92.0953,Canada,Nunavut,,2472,1124057160
+Owen Sound,Owen Sound,44.5666,-80.85,Canada,Ontario,,22625,1124623613
+Lac La Biche,Lac La Biche,54.7719,-111.9647,Canada,Alberta,,2986,1124501918
+Hopedale,Hopedale,55.45,-60.2167,Canada,Newfoundland and Labrador,,442,1124338710
+Norway House,Norway House,53.9666,-97.8333,Canada,Manitoba,,6000,1124567295
+Coral Harbour,Coral Harbour,64.1538,-83.1766,Canada,Nunavut,,834,1124748087
+Kugluktuk,Kugluktuk,67.7987,-115.1254,Canada,Nunavut,,1302,1124349489
+Norman Wells,Norman Wells,65.2837,-126.85,Canada,Northwest Territories,,1027,1124868628
+Fort Resolution,Fort Resolution,61.1666,-113.683,Canada,Northwest Territories,,448,1124395645
+Fort McPherson,Fort McPherson,67.4915,-134.895,Canada,Northwest Territories,,1069,1124984904
+Forteau,Forteau,51.4504,-56.95,Canada,Newfoundland and Labrador,,448,1124235945
+Kuujjuaq,Kuujjuaq,58.1,-68.4,Canada,Québec,,1273,1124705411
+Cape Dorset,Cape Dorset,64.3125,-76.5386,Canada,Nunavut,,1326,1124646146
+Cartwright,Cartwright,53.7014,-57.0121,Canada,Newfoundland and Labrador,,505,1124810278
+Flin Flon,Flin Flon,54.7666,-101.8833,Canada,Manitoba,,6393,1124500458
+Holman,Holman,70.7334,-117.75,Canada,Northwest Territories,,500,1124762461
+Pembroke,Pembroke,45.8503,-77.1166,Canada,Ontario,,15551,1124877940
+Baker Lake,Baker Lake,64.317,-96.0167,Canada,Nunavut,,1584,1124826935
+Moosonee,Moosonee,51.2806,-80.658,Canada,Ontario,,1725,1124592907
+Dryden,Dryden,49.7833,-92.8333,Canada,Ontario,,7862,1124295097
+Corner Brook,Corner Brook,48.95,-57.9333,Canada,Newfoundland and Labrador,,20791,1124244792
+Kelowna,Kelowna,49.9,-119.4833,Canada,British Columbia,,125109,1124080626
+Fort Smith,Fort Smith,60,-111.8833,Canada,Northwest Territories,,518,1124491408
+Fort Severn,Fort Severn,55.9833,-87.65,Canada,Ontario,,125,1124513059
+Mont-Laurier,Mont-Laurier,46.5504,-75.5,Canada,Québec,,11642,1124355399
+Channel-Port aux Basques,Channel-Port aux Basques,47.567,-59.15,Canada,Newfoundland and Labrador,,4220,1124993496
+Kindersley,Kindersley,51.467,-109.1333,Canada,Saskatchewan,,4383,1124343190
+Igloolik,Igloolik,69.2565,-81.7936,Canada,Nunavut,,1612,1124253277
+Hudson Bay,Hudson Bay,52.8504,-102.3833,Canada,Saskatchewan,,2157,1124151446
+Courtenay,Courtenay,49.6833,-125,Canada,British Columbia,,32793,1124324905
+Mistassini,Mistassini,50.4171,-73.8666,Canada,Québec,,2645,1124591114
+Kingston,Kingston,44.2337,-76.4833,Canada,Ontario,,114195,1124437097
+Eastmain,Eastmain,52.2333,-78.5167,Canada,Québec,,335,1124594875
+Baie-Comeau,Baie-Comeau,49.2227,-68.158,Canada,Québec,,10435,1124859576
+North Bay,North Bay,46.3,-79.45,Canada,Ontario,,50170,1124058496
+North Battleford,North Battleford,52.7666,-108.2833,Canada,Saskatchewan,,19440,1124789635
+Grise Fiord,Grise Fiord,76.4417,-82.95,Canada,Nunavut,,23,1124072601
+Hay River,Hay River,60.85,-115.7,Canada,Northwest Territories,,3900,1124721803
+Stony Rapids,Stony Rapids,59.2666,-105.8333,Canada,Saskatchewan,,152,1124279421
+Hinton,Hinton,53.4,-117.5834,Canada,Alberta,,10265,1124131074
+Toronto,Toronto,43.7,-79.42,Canada,Ontario,admin,5213000,1124279679
+Edmonton,Edmonton,53.55,-113.5,Canada,Alberta,admin,1058000,1124290735
+Gjoa Haven,Gjoa Haven,68.6333,-95.9167,Canada,Nunavut,,1109,1124942230
+Fort Simpson,Fort Simpson,61.85,-121.3333,Canada,Northwest Territories,,283,1124669512
+Naujaat,Repulse Bay,66.5295,-86.2829,Canada,Nunavut,,1000,1124398936
+Lethbridge,Lethbridge,49.7005,-112.8333,Canada,Alberta,,70617,1124321200
+Sudbury,Sudbury,46.5,-80.9666,Canada,Ontario,,157857,1124539524
+Swift Current,Swift Current,50.2837,-107.7666,Canada,Saskatchewan,,14906,1124460875
+Regina,Regina,50.45,-104.617,Canada,Saskatchewan,admin,176183,1124342541
+Cornwall,Cornwall,45.0171,-74.7333,Canada,Ontario,,48821,1124938303
+Taloyoak,Taloyoak,69.5333,-93.5333,Canada,Nunavut,,774,1124099415
+Tuktoyaktuk,Tuktoyaktuk,69.4548,-133.0492,Canada,Northwest Territories,,929,1124437778
+Deer Lake,Deer Lake,52.617,-94.0666,Canada,Ontario,,3743,1124585613
+London,London,42.97,-81.25,Canada,Ontario,,346765,1124469960
+Natashquan,Natashquan,50.1913,-61.8107,Canada,Québec,,722,1124631749
+Cap-Chat,Cap-Chat,49.1,-66.6833,Canada,Québec,,1484,1124662875
+Orillia,Orillia,44.6,-79.4167,Canada,Ontario,,37483,1124049830
+Kenora,Kenora,49.7667,-94.4666,Canada,Ontario,,10852,1124844807
+Barrie,Barrie,44.3838,-79.7,Canada,Ontario,,182041,1124340223
+Sherbrooke,Sherbrooke,45.4,-71.9,Canada,Québec,,139652,1124559506
+St. Anthony,St. Anthony,51.3837,-55.6,Canada,Newfoundland and Labrador,,224,1124808047
+Rigolet,Rigolet,54.1766,-58.4473,Canada,Newfoundland and Labrador,,124,1124015130
+Fort Good Hope,Fort Good Hope,66.2666,-128.6333,Canada,Northwest Territories,,597,1124011380
+La Scie,La Scie,49.967,-55.583,Canada,Newfoundland and Labrador,,817,1124371570
+Fort St. John,Fort St. John,56.25,-120.8333,Canada,British Columbia,,18776,1124517495
+Marathon,Marathon,48.7504,-86.3667,Canada,Ontario,,4627,1124974800
+Gaspé,Gaspe,48.8373,-64.4934,Canada,Québec,,3677,1124212754
+Nelson House,Nelson House,55.8005,-98.85,Canada,Manitoba,,2500,1124119363
+Lillooet,Lillooet,50.6837,-121.9333,Canada,British Columbia,,2893,1124632130
+Fort McMurray,Fort McMurray,56.7333,-111.3833,Canada,Alberta,,21863,1124169385
+Jasper,Jasper,52.8833,-118.0834,Canada,Alberta,,3907,1124533812
+Buchans,Buchans,48.817,-56.8666,Canada,Newfoundland and Labrador,,685,1124564223
+Stettler,Stettler,52.333,-112.6833,Canada,Alberta,,5494,1124010388
+La Ronge,La Ronge,55.1,-105.3,Canada,Saskatchewan,,3783,1124763455
+Brochet,Brochet,57.8832,-101.6666,Canada,Manitoba,,278,1124164486
+Baddeck,Baddeck,46.1,-60.754,Canada,Nova Scotia,,852,1124594988
+Pond Inlet,Pond Inlet,72.685,-78.0001,Canada,Nunavut,,1549,1124788973
+St-Augustin,St-Augustin,51.2423,-58.647,Canada,Québec,,3961,1124425707
+Gimli,Gimli,50.6333,-97,Canada,Manitoba,,2623,1124472413
+Red Lake,Red Lake,51.0337,-93.8333,Canada,Ontario,,1765,1124856215
+Stephenville,Stephenville,48.5504,-58.5666,Canada,Newfoundland and Labrador,,7054,1124000201
+Ennadai,Ennadai,61.1333,-100.8833,Canada,Nunavut,,0,1124019423
+Happy Valley - Goose Bay,Happy Valley - Goose Bay,53.3,-60.3,Canada,Newfoundland and Labrador,,7572,1124879731
+Williams Lake,Williams Lake,52.1166,-122.15,Canada,British Columbia,,14168,1124821980
+Prince Rupert,Prince Rupert,54.3167,-130.33,Canada,British Columbia,,14708,1124847707
+Chilliwack,Chilliwack,49.1666,-121.95,Canada,British Columbia,,51942,1124531262
+Radisson,Radisson,53.7836,-77.6166,Canada,Québec,,270,1124508471
+Churchill,Churchill,58.766,-94.166,Canada,Manitoba,,1000,1124676851
+Port Hardy,Port Hardy,50.7171,-127.5,Canada,British Columbia,,2295,1124937351
+Penticton,Penticton,49.5004,-119.5833,Canada,British Columbia,,37721,1124613898
+Drummondville,Drummondville,45.8833,-72.4834,Canada,Québec,,59489,1124624283
+Brandon,Brandon,49.8333,-99.95,Canada,Manitoba,,28418,1124239939
+Argentia,Argentia,47.3004,-53.99,Canada,Newfoundland and Labrador,,1063,1124242107
+Kimmirut,Kimmirut,62.85,-69.8833,Canada,Nunavut,,385,1124651529
+Wiarton,Wiarton,44.7337,-81.1333,Canada,Ontario,,2182,1124916771
+Ottawa,Ottawa,45.4167,-75.7,Canada,Ontario,primary,1145000,1124399363
+Fort Chipewyan,Fort Chipewyan,58.7171,-111.15,Canada,Alberta,,3222,1124526582
+Fort Nelson,Fort Nelson,58.8167,-122.533,Canada,British Columbia,,6315,1124378059
+Lynn Lake,Lynn Lake,56.85,-101.05,Canada,Manitoba,,482,1124617750
+Weyburn,Weyburn,49.6666,-103.85,Canada,Saskatchewan,,9362,1124618383
+Burns Lake,Burns Lake,54.217,-125.7666,Canada,British Columbia,,2635,1124512812
+Nain,Nain,56.5474,-61.686,Canada,Newfoundland and Labrador,,1151,1124719084
+Prince George,Prince George,53.9167,-122.7667,Canada,British Columbia,,65558,1124733292
+Cochrane,Cochrane,49.067,-81.0166,Canada,Ontario,,4441,1124296729
+Nipigon,Nipigon,49.017,-88.25,Canada,Ontario,,1204,1124361489
+Rivière-du-Loup,Riviere-du-Loup,47.8333,-69.5333,Canada,Québec,,16403,1124662123
+St.-Jerome,St.-Jerome,45.7666,-74,Canada,Québec,,78439,1124268324
+Geraldton,Geraldton,49.7166,-86.9666,Canada,Ontario,,1290,1124836221
+New Liskeard,New Liskeard,47.5,-79.6666,Canada,Ontario,,5203,1124394858
+Cat Lake,Cat Lake,51.717,-91.8,Canada,Ontario,,277,1124908580
+Tofino,Tofino,49.1521,-125.9031,Canada,British Columbia,,1655,1124140302
+Tsiigehtchic,Tsiigehtchic,67.4333,-133.75,Canada,Northwest Territories,,175,1124282127
+Thompson,Thompson,55.7499,-97.8666,Canada,Manitoba,,13727,1124110693
+Abbotsford,Abbotsford,49.0504,-122.3,Canada,British Columbia,,151683,1124808029
+Trois-Rivières,Trois Rivieres,46.35,-72.5499,Canada,Québec,,119693,1124407487
+Peterborough,Peterborough,44.3,-78.3333,Canada,Ontario,,83627,1124440356
+Amos,Amos,48.5666,-78.1167,Canada,Québec,,10516,1124939649
+Chapleau,Chapleau,47.8337,-83.4,Canada,Ontario,,2663,1124518288
+Athabasca,Athabasca,54.717,-113.2666,Canada,Alberta,,2539,1124006333
+Red Deer,Red Deer,52.2666,-113.8,Canada,Alberta,,74857,1124404130
+Belleville,Belleville,44.1667,-77.3833,Canada,Ontario,,43990,1124786959
+Kapuskasing,Kapuskasing,49.4167,-82.4333,Canada,Ontario,,9240,1124764245
+Sioux Lookout,Sioux Lookout,50.263,-91.9166,Canada,Ontario,,4570,1124804545
+Winnipeg,Winnipeg,49.883,-97.166,Canada,Manitoba,admin,632063,1124224963
+Lake Louise,Lake Louise,51.4337,-116.1833,Canada,Alberta,,1248,1124619845
+Banff,Banff,51.178,-115.5719,Canada,Alberta,,7502,1124351648
+Doline,Doline,65.1833,-123.4167,Canada,Northwest Territories,,525,1124071207
+Cambridge Bay,Cambridge Bay,69.117,-105.0333,Canada,Nunavut,,1477,1124596377
+Biggar,Biggar,52.0504,-107.9833,Canada,Saskatchewan,,2192,1124897904
+Nanaimo,Nanaimo,49.146,-123.9343,Canada,British Columbia,,84905,1124623893
+Val d'Or,Val d'Or,48.1166,-77.7666,Canada,Québec,,20625,1124239138
+Hall Beach,Hall Beach,68.7675,-81.2361,Canada,Nunavut,,654,1124072220
+Oxford House,Oxford House,54.9504,-95.2666,Canada,Manitoba,,184,1124490415
+The Pas,The Pas,53.8166,-101.2333,Canada,Manitoba,,6055,1124755168
+Meander River,Meander River,59.0333,-117.683,Canada,Alberta,,200,1124688170
+Bathurst,Bathurst,47.6,-65.65,Canada,New Brunswick,,6111,1124816720
+Windsor,Windsor,44.9806,-64.1291,Canada,Nova Scotia,,3864,1124800737
+Victoriaville,Victoriaville,46.0504,-71.9667,Canada,Québec,,41500,1124149787
+Brockville,Brockville,44.5893,-75.6953,Canada,Ontario,,26458,1124286131
+Hamilton,Hamilton,43.25,-79.83,Canada,Ontario,,721053,1124567288
+Kitchener,Kitchener,43.45,-80.5,Canada,Ontario,,417001,1124158530
+Victoria,Victoria,48.4333,-123.35,Canada,British Columbia,admin,289625,1124147219
+Orangeville,Orangeville,43.9171,-80.0833,Canada,Ontario,,32640,1124566061
+Sandspit,Sandspit,53.2404,-131.8333,Canada,British Columbia,,538,1124264846
+Wawa,Wawa,48.0004,-84.7833,Canada,Ontario,,2174,1124381797
+Kangirsuk,Kangirsuk,60.0248,-69.9991,Canada,Québec,,549,1124276361
+Shawinigan,Shawinigan,46.5504,-72.7333,Canada,Québec,,49161,1124441118
+Hearst,Hearst,49.7005,-83.6666,Canada,Ontario,,5043,1124376843
+Pukatawagan,Pukatawagan,55.7333,-101.3166,Canada,Manitoba,,431,1124927414
+Arviat,Arviat,61.1086,-94.0586,Canada,Nunavut,,1868,1124309634
+Matagami,Matagami,49.7504,-77.6333,Canada,Québec,,1966,1124686252
+Saint John,Saint John,45.267,-66.0767,Canada,New Brunswick,,87857,1124631364
+Inuvik,Inuvik,68.35,-133.7,Canada,Northwest Territories,,3022,1124116419
+Chesterfield Inlet,Chesterfield Inlet,63.3383,-90.7001,Canada,Nunavut,,374,1124208484
+Rouyn-Noranda,Rouyn-Noranda,48.25,-79.0332,Canada,Québec,,24602,1124267752
+Liverpool,Liverpool,44.04,-64.72,Canada,Nova Scotia,,4331,1124159558
+Montréal,Montreal,45.5,-73.5833,Canada,Québec,,3678000,1124586170
+Shelburne,Shelburne,43.7656,-65.3194,Canada,Nova Scotia,,3167,1124659892
+Yarmouth,Yarmouth,43.8308,-66.1126,Canada,Nova Scotia,,7500,1124983867
+Salluit,Salluit,62.1826,-75.6595,Canada,Québec,,106,1124962070
+Ivugivik,Ivugivik,62.4166,-77.9,Canada,Québec,,156,1124828045
+Québec,Quebec,46.84,-71.2456,Canada,Québec,admin,624177,1124823933
+Dawson City,Dawson City,64.0666,-139.4167,Canada,Yukon,,1319,1124075766
+Moncton,Moncton,46.0833,-64.7667,Canada,New Brunswick,,90635,1124521303
+Digby,Digby,44.6226,-65.7605,Canada,Nova Scotia,,3949,1124797865
+Fredericton,Fredericton,45.95,-66.6333,Canada,New Brunswick,admin,52337,1124061289
+Dease Lake,Dease Lake,58.4503,-130.0333,Canada,British Columbia,,303,1124864417
+Charlottetown,Charlottetown,46.2493,-63.1313,Canada,Prince Edward Island,admin,42402,1124897699
+Inukjuak,Inukjuak,58.47,-78.136,Canada,Québec,,1597,1124369757
+Sarnia,Sarnia,42.9666,-82.4,Canada,Ontario,,144172,1124509835
+Edmundston,Edmundston,47.3794,-68.3333,Canada,New Brunswick,,17894,1124274233
+Windsor,Windsor,42.3333,-83.0333,Canada,Ontario,,319246,1124261024
+Joliette,Joliette,46.0333,-73.4333,Canada,Québec,,45361,1124841554
+Amherst,Amherst,45.8166,-64.2166,Canada,Nova Scotia,,9336,1124895094
+Sept-Îles,Sept-Iles,50.3161,-66.36,Canada,Québec,,25686,1124406431

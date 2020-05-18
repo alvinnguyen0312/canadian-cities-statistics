@@ -1,0 +1,241 @@
+﻿<Window x:Class="ProjectClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectClient"
+        mc:Ignorable="d"
+        Title="Canadian Cities and Province Information App" Height="880" Width="600" Left="500" Top="0">
+    <Border Background="#f1f3f4">
+        <StackPanel>
+            <!--Welcome Message-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Canadian Cities and Province Information App V1.0" FontWeight="Bold" Margin="10,0" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtMessage" HorizontalAlignment="Right" Grid.Column="1" IsReadOnly="True" Margin="5" TextWrapping="Wrap"  VerticalContentAlignment="Center" FontStyle="Normal" CharacterCasing="Upper" BorderThickness="0" Width="100"></TextBox>
+                <Button x:Name="ButtonClose" Foreground="white"  Background="#75b79e" Grid.Column="2" Width="60" Content="CLOSE" Margin="0 4 10 0" HorizontalAlignment="Right" Click="ButtonClose_Click"></Button>
+            </Grid>
+
+            <Grid Margin="0,0,-6.6,0.4">
+
+                <!--Document-->
+                <GroupBox Header="Document" HorizontalAlignment="Left" Height="60" Margin="10,0,10,0" VerticalAlignment="Top" Width="578" FontStyle="Italic">
+                    <Grid Margin="0">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="ButtonParseCSV" Grid.Column="0" Foreground="white"  Background="#75b79e" Content="Parse CSV" Margin="5 5 5 0" Height="20" Click="ButtonParseCSV_Click"></Button>
+                        <Button x:Name="ButtonParseJSON" Grid.Column="1" Foreground="white"  Background="#75b79e" Content="Parse JSON" Margin="5 5 5 0" Height="20" Click="ButtonParseJSON_Click"></Button>
+                        <Button x:Name="ButtonParseXML" Grid.Column="2" Foreground="white"  Background="#75b79e" Content="Parse XML" Margin="5 5 5 0" Height="20" Click="ButtonParseXML_Click"></Button>
+                    </Grid>
+                </GroupBox>
+
+                <!--City Information-->
+                <GroupBox Header="City Information" HorizontalAlignment="Left" Height="220" Margin="10,60,0,0" VerticalAlignment="Top" Width="280" FontStyle="Italic">
+                    <Grid Margin="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="City Name" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontStyle="Normal"/>
+                        <Label Content="Province :" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Grid.Row="1" FontStyle="Normal"/>
+                        <Label Content="Population :" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Grid.Row="2" FontStyle="Normal"/>
+                        <Label Content="Latitude :" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Grid.Row="3" FontStyle="Normal"/>
+                        <Label Content="Longitude :" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Grid.Row="4" FontStyle="Normal"/>
+                        <TextBox x:Name="txtCityInfoName" Margin="5" TextWrapping="Wrap" Grid.Column="1" VerticalContentAlignment="Center" FontStyle="Normal" Height="25" />
+                        <TextBox x:Name="txtCityInfoProvince" Margin="5" TextWrapping="Wrap" Grid.Column="1" Grid.Row="1" VerticalContentAlignment="Center" FontStyle="Normal" CharacterCasing="Upper" IsReadOnly="True" BorderThickness="0"/>
+                        <TextBox x:Name="txtCityInfoPopulation" Margin="5" TextWrapping="Wrap" Grid.Column="1" Grid.Row="2" VerticalContentAlignment="Center" FontStyle="Normal" CharacterCasing="Upper" IsReadOnly="True" BorderThickness="0"/>
+                        <TextBox x:Name="txtCityInfoLat" Margin="5" TextWrapping="Wrap" Grid.Column="1" Grid.Row="3" VerticalContentAlignment="Center" FontStyle="Normal" CharacterCasing="Upper" IsReadOnly="True" BorderThickness="0"/>
+                        <TextBox x:Name="txtCityInfoLong" Margin="5" TextWrapping="Wrap" Grid.Column="1" Grid.Row="4" VerticalContentAlignment="Center" FontStyle="Normal" CharacterCasing="Upper" IsReadOnly="True" BorderThickness="0"/>
+                    </Grid>
+                </GroupBox>
+
+
+
+                <StackPanel>
+                    <!--Largest Population City-->
+                    <GroupBox Header="Largest Population City" HorizontalAlignment="Right" Height="100" Margin="0,60,19.6,0" VerticalAlignment="Top" Width="280" FontStyle="Italic">
+                        <Grid Margin="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Content="Province Name" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontStyle="Normal"/>
+                            <TextBox x:Name="txtLargestPopulationProvinceName" Margin="5" TextWrapping="Wrap" Grid.Column="1" VerticalContentAlignment="Center" FontStyle="Normal" Height="25"/>
+
+                            <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="center">
+                                <TextBlock Text="City :" HorizontalAlignment="Left" FontStyle="Normal" />
+                                <TextBox x:Name="txtLargestPopulationCityName" Padding="2"  FontStyle="Normal" BorderThickness="0" IsReadOnly="True" ></TextBox>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="center" Margin="10 0 0 0">
+                                <TextBlock Text="Population :" HorizontalAlignment="Left" FontStyle="Normal"/>
+                                <TextBox x:Name="txtLargestPopulationCityPopulation" Padding="2"  FontStyle="Normal" BorderThickness="0" IsReadOnly="True"></TextBox>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+                    <!--Smallest Population City-->
+                    <GroupBox Header="Smallest Population City" HorizontalAlignment="Right" Height="100" Margin="0,20,19.6,0" VerticalAlignment="Top" Width="280" FontStyle="Italic">
+                        <Grid Margin="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Content="Province Name" Margin="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontStyle="Normal"/>
+                            <TextBox x:Name="txtSmallestPopulationProvinceName" Margin="5" TextWrapping="Wrap" Grid.Column="1" VerticalContentAlignment="Center" FontStyle="Normal" Height="25"/>
+
+                            <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="center">
+                                <TextBlock Text="City :" HorizontalAlignment="Left" FontStyle="Normal"/>
+                                <TextBox x:Name="txtSmallestPopulationCityName" Padding="2"  FontStyle="Normal" BorderThickness="0" IsReadOnly="True" ></TextBox>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="center" Margin="10 0 0 0">
+                                <TextBlock Text="Population :" HorizontalAlignment="Left" FontStyle="Normal"/>
+                                <TextBox x:Name="txtSmallestPopulationCityPopulation" Padding="2"  FontStyle="Normal" BorderThickness="0" IsReadOnly="True"></TextBox>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+
+                </StackPanel>
+
+                <Button x:Name="ButtonGetCityInfo" Foreground="white"  Background="#75b79e" Content="CITY INFO" HorizontalAlignment="Left" Height="20" Margin="70 285 0 0" VerticalAlignment="Top" Width="151" Click="ButtonGetCityInfo_Click"/>
+                <Button x:Name="ButtonGetLargestPopulationCity" Foreground="white"  Background="#75b79e" Content="LARGEST CITY" HorizontalAlignment="Left" Height="20" Margin="320 285 0 0" VerticalAlignment="Top" Width="100" Click="ButtonGetLargestPopulationCity_Click"/>
+                <Button x:Name="ButtonGetSmallestPopulationCity" Foreground="white"  Background="#75b79e" Content="SMALLEST CITY" HorizontalAlignment="Left" Height="20" Margin="460 285 0 0" VerticalAlignment="Top" Width="100" Click="ButtonGetSmallestPopulationCity_Click"/>
+                <!--City Function-->
+                <GroupBox Header="City Function" HorizontalAlignment="Center" Height="220" Margin="10 310 20 0"  VerticalAlignment="Top" Width="570" FontStyle="Italic">
+                    <Grid Margin="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--Compare Population-->
+                        <GroupBox Grid.Column="0" Header="Compare Population" HorizontalAlignment="Center" Height="140" Margin="0 0 0 0" VerticalAlignment="Center" Width="270" FontStyle="Italic">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0" VerticalAlignment="center">
+                                    <TextBlock Text="City #1" HorizontalAlignment="Center" FontStyle="Normal"/>
+                                    <TextBox x:Name="txtCompPopulationCity1" Padding="2"  FontStyle="Normal" ></TextBox>
+                                </StackPanel>
+                                <StackPanel Grid.Column="1" VerticalAlignment="center" Margin="10 0 0 0">
+                                    <TextBlock Text="City #2" HorizontalAlignment="Center" FontStyle="Normal"/>
+                                    <TextBox x:Name="txtCompPopulationCity2" Padding="2"  FontStyle="Normal" ></TextBox>
+                                </StackPanel>
+
+                                <TextBlock Text="Larger City :" Grid.Row="1" Margin="4 0 0 0" VerticalAlignment="Center" FontStyle="Normal"></TextBlock>
+                                <TextBlock Text="Population :" Grid.Row="2"  Margin="4 0 0 0" VerticalAlignment="Center" FontStyle="Normal"></TextBlock>
+                                <TextBox x:Name="txtCompPopulationLargarCity" Padding="2" Grid.Row="1" Grid.Column="1" Height="20" FontStyle="Normal" IsReadOnly="True" BorderThickness="0"></TextBox>
+                                <TextBox x:Name="txtCompPopulationLargarCityPopulation" Padding="2" Grid.Row="2" Grid.Column="1" Height="20" FontStyle="Normal" IsReadOnly="True" BorderThickness="0"></TextBox>
+
+                            </Grid>
+
+                        </GroupBox>
+                        <!--Calculate Distance-->
+                        <GroupBox Grid.Column="1" Header="Calculate Distance" HorizontalAlignment="Center" Height="140" Margin="0,0,0,0" VerticalAlignment="Center" Width="270" FontStyle="Italic">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0" VerticalAlignment="center">
+                                    <TextBlock Text="City #1" HorizontalAlignment="Center" FontStyle="Normal"/>
+                                    <TextBox x:Name="txtCalcDistanceCity1" Padding="2"  FontStyle="Normal" ></TextBox>
+                                </StackPanel>
+                                <StackPanel Grid.Column="1" VerticalAlignment="center" Margin="10 0 0 0">
+                                    <TextBlock Text="City #2" HorizontalAlignment="Center" FontStyle="Normal"/>
+                                    <TextBox x:Name="txtCalcDistanceCity2" Padding="2"  FontStyle="Normal" ></TextBox>
+                                </StackPanel>
+
+                                <TextBlock Text="Distance :" Grid.Row="1" Margin="4 0 0 0" VerticalAlignment="Center" FontStyle="Normal"></TextBlock>
+                                <TextBox x:Name="txtCalcDistance" Padding="2" Grid.Row="1" Grid.Column="1" Height="20" FontStyle="Normal" IsReadOnly="True" BorderThickness="0"></TextBox>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </GroupBox>
+                <Button x:Name="ButtonCompare" Foreground="white"  Background="#75b79e" Content="COMPARE" HorizontalAlignment="Left" Height="20" Margin="70 480 0 0" VerticalAlignment="Top" Width="151" Click="ButtonCompare_Click"/>
+                <Button x:Name="ButtonCalculate" Foreground="white"  Background="#75b79e" Content="CALCULATE" HorizontalAlignment="Left" Height="20" Margin="350 480 0 0" VerticalAlignment="Top" Width="151" Click='ButtonCalculate_Click'/>
+
+                <!--Province Info-->
+                <GroupBox Header="Province Information" HorizontalAlignment="Left" Height="65" Margin="10,535,10,0" VerticalAlignment="Top" Width="572" FontStyle="Italic">
+                    <Grid Margin="0">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Province-->
+                        <StackPanel Grid.Column="0" VerticalAlignment="center">
+                            <TextBlock Text="Province" FontStyle="Normal"/>
+                            <TextBox x:Name="txtProvinceInfoName" Padding="2" FontStyle="Normal" TextWrapping="Wrap" CharacterCasing="Normal"></TextBox>
+                        </StackPanel>
+                        <!--City-->
+                        <StackPanel Grid.Column="1" VerticalAlignment="center" Margin="10 0 0 0">
+                            <TextBlock Text="Population :" FontStyle="Normal"/>
+                            <TextBox x:Name="txtProvinceInfoPopulation" Padding="2" FontStyle="Normal" TextWrapping="Wrap" CharacterCasing="Normal" IsReadOnly="True" BorderThickness="0"></TextBox>
+                        </StackPanel>
+                        <Button x:Name="ButtonGetProvincePopulation" Grid.Column="2" Foreground="white"  Background="#75b79e" Content="PROVINCE POPULATION" Margin="10 14 0 0" Height="20" Width="150" FontStyle="Normal" Click="ButtonGetProvincePopulation_Click"></Button>
+                    </Grid>
+                </GroupBox>
+
+                <!--Province Function-->
+                <GroupBox Header="Province Function" HorizontalAlignment="Center" Height="210" Margin="10 600 20 0"  VerticalAlignment="Top" Width="570" FontStyle="Italic">
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" Margin="5 10">
+                            <RadioButton x:Name="RadioBtnProvinceCities" GroupName="province" Content="PROVINCE CITIES" FontStyle="Normal" Checked="RadioBtnProvinceCities_Checked"></RadioButton>
+                            <RadioButton x:Name="RadioBtnRankPopulation" GroupName="province" Content="RANK BY POPULATION" Margin="0 10" FontStyle="Normal" Checked="RadioBtnRankPopulation_Checked"></RadioButton>
+                            <RadioButton x:Name="RadioBtnRankCities" GroupName="province" Content="RANK BY CITIES" FontStyle="Normal" Checked="RadioBtnRankCities_Checked"></RadioButton>
+                        </StackPanel>
+
+                        <ListBox x:Name="txtProvinceFunctionList" Height="180" Grid.Column="1" ItemsSource="{Binding}" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" FontStyle="Normal"></ListBox>
+                    </Grid>
+
+                </GroupBox>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Window>
